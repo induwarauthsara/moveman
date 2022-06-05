@@ -448,6 +448,9 @@ p {
         margin-bottom: 30px;
         height: auto;
     }
+    .about .section-header {
+        margin-top: -80px;
+    }
 }
 
 
