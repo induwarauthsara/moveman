@@ -451,7 +451,8 @@ p {
         height: auto;
     }
     #text-carousel-intro-section .caption {
-        margin-top: -250px;
+        margin-top: -250px !important;
+        /* top: 50px !important; */
     }
 }
 
