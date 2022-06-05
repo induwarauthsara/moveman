@@ -54,8 +54,13 @@ body .body {
 
 /* Begin Fonts */
 
-body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+* {
+    /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
+    @font-face {
+        font-family: myFirstFont;
+        src: url(fonts/dm-sans-cufonfonts/DMSans-Regular.ttf);
+    }
+    font-family: "myFirstFont";
 }
 
 h1,
@@ -64,7 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
     font-weight: 700;
     margin-bottom: 10px;
 }
