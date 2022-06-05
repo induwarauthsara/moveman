@@ -448,7 +448,9 @@ p {
         margin-bottom: 30px;
         height: auto;
     }
-    .caption {
+    #text-carousel-intro-section .caption {
+        position: relative;
+        top: 50%;
         margin-top: -250px;
     }
 }
