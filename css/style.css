@@ -56,7 +56,7 @@ body .body {
 *,
 li,
 body {
-    font-family: myFirstFont, Helvetica, Arial, sans-serif;
+    font-family: myFirstFont, Helvetica, Arial, sans-serif !important;
 }
 
 h1,
@@ -67,7 +67,7 @@ h5,
 h6 {
     /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
     font-weight: 700;
-    font-family: myFirstFont;
+    font-family: myFirstFont, Helvetica, Arial, sans-serif !important;
     margin-bottom: 10px;
 }
 
