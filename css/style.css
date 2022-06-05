@@ -40,12 +40,6 @@ body .body {
     /* padding: 50px 0; */
 }
 
-* {
-    border-radius: 0 !important;
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-}
-
 *:focus {
     outline: none !important;
     box-shadow: none !important;
@@ -394,6 +388,19 @@ section {
     font-size: 20px;
 }
 
+@media (max-width: 767.98px) {
+    #text-carousel-intro-section .caption {
+        /* margin-top: -250px !important; */
+        top: 200px !important;
+    }
+    #text-carousel-intro-section .caption h1 {
+        font-size: 30px;
+    }
+    #text-carousel-intro-section .caption p {
+        font-size: 16px;
+    }
+}
+
 
 /* End text carousel intro */
 
@@ -449,10 +456,6 @@ p {
     .about .about-img {
         margin-bottom: 30px;
         height: auto;
-    }
-    #text-carousel-intro-section .caption {
-        /* margin-top: -250px !important; */
-        top: 200px !important;
     }
 }
 
